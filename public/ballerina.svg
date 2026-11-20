@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 760" fill="none">
+ <defs>
+  <linearGradient id="skin" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#f4d9d5"/><stop offset="1" stop-color="#8bbce9"/></linearGradient>
+  <linearGradient id="dress" x1=".15" y1="0" x2=".9" y2="1"><stop stop-color="#e4faff"/><stop offset=".38" stop-color="#75cfff"/><stop offset="1" stop-color="#3269df"/></linearGradient>
+  <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4eaff"/><stop offset="1" stop-color="#78aeea"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="13"/></filter>
+ </defs>
+ <ellipse cx="282" cy="695" rx="130" ry="28" fill="#3daeff" opacity=".28" filter="url(#glow)"/>
+ <!-- raised arm -->
+ <path d="M277 192 C309 149 335 103 360 67 C371 50 383 40 396 36" stroke="url(#skin)" stroke-width="17" stroke-linecap="round"/>
+ <path d="M394 37 L414 22 M395 38 L420 33 M393 38 L411 45" stroke="#d8eaff" stroke-width="5" stroke-linecap="round"/>
+ <!-- extended arm -->
+ <path d="M262 202 C220 193 176 201 131 222 C104 235 79 244 55 238" stroke="url(#skin)" stroke-width="17" stroke-linecap="round"/>
+ <path d="M55 238 L31 225 M55 238 L28 241 M57 239 L37 253" stroke="#d8eaff" stroke-width="5" stroke-linecap="round"/>
+ <!-- head and hair -->
+ <path d="M256 112 C246 83 264 55 292 55 C319 56 334 81 326 108 C320 129 303 142 283 138 C268 135 260 126 256 112Z" fill="url(#skin)"/>
+ <path d="M255 103 C247 75 261 45 294 43 C326 41 342 68 331 95 C321 79 306 74 292 78 C280 83 274 96 255 103Z" fill="#101d39"/>
+ <path d="M320 76 C345 78 344 106 326 120" stroke="#17294b" stroke-width="13" stroke-linecap="round"/>
+ <!-- torso -->
+ <path d="M267 136 C249 150 244 178 250 214 L279 271 L322 218 C318 183 309 151 292 137Z" fill="url(#skin)"/>
+ <path d="M258 148 C272 160 300 160 312 147 L326 219 L282 254 L246 211Z" fill="#10254a"/>
+ <!-- tutu flowing -->
+ <path d="M250 225 C218 241 173 253 121 288 C167 297 205 317 242 307 C198 336 150 362 105 408 C181 389 239 383 286 351 C310 393 371 411 452 398 C404 365 370 331 345 299 C397 309 438 297 483 276 C415 267 365 245 319 225Z" fill="url(#dress)" opacity=".94"/>
+ <path d="M248 233 C202 278 175 311 130 382 M282 250 C251 303 220 341 177 383 M317 241 C355 296 385 338 438 380 M300 253 C326 316 343 352 389 392" stroke="#e8faff" stroke-width="5" opacity=".55" stroke-linecap="round"/>
+ <path d="M236 229 Q285 258 337 225" stroke="#f1fcff" stroke-width="5" opacity=".8"/>
+ <!-- supporting leg -->
+ <path d="M283 337 C278 409 281 489 290 568 C294 607 292 642 282 670" stroke="url(#leg)" stroke-width="19" stroke-linecap="round"/>
+ <!-- lifted leg -->
+ <path d="M319 340 C352 394 393 428 420 461 C437 482 433 504 412 514 C390 524 370 508 360 488 C341 450 316 420 296 397" stroke="url(#leg)" stroke-width="18" stroke-linecap="round"/>
+ <!-- pointe shoes -->
+ <path d="M282 665 C264 675 252 695 258 709 C266 720 294 715 305 704 L292 669Z" fill="#d8edff"/>
+ <path d="M409 507 C425 502 444 508 449 521 C450 533 427 539 409 530 L396 516Z" fill="#d8edff"/>
+ <path d="M267 707 L239 735 M280 710 L270 742 M429 524 L456 548" stroke="#8ccaff" stroke-width="3" opacity=".7"/>
+</svg>
